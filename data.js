@@ -8,7 +8,7 @@ const CV_DATA = {
         "technical concept as I am writing the code behind it.",
 
   contact: {
-    email: "nikola.nikolov.cv@proton.me",
+    email: "hello@nikolov.cv",
     github: "#",
     linkedin: "#"
   },
