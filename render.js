@@ -34,9 +34,11 @@
   function render() {
     var el;
 
-    if ((el = document.getElementById("hero-name"))) el.textContent = CV_DATA.name;
+    if ((el = document.getElementById("hero-name"))) el.textContent = CV_DATA.heroGreeting;
+    if ((el = document.getElementById("hero-name-print"))) el.textContent = CV_DATA.name;
     if ((el = document.getElementById("hero-tagline"))) el.innerHTML = CV_DATA.tagline;
     if ((el = document.getElementById("hero-lede"))) el.textContent = CV_DATA.lede;
+    if ((el = document.getElementById("hero-lede-print"))) el.textContent = CV_DATA.pdfLede;
 
     if ((el = document.getElementById("experience-list"))) {
       el.innerHTML = entryList(CV_DATA.experience);

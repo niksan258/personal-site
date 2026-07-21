@@ -9,22 +9,25 @@
 </head>
 <body>
 
-<header class="site-header">
-  <a class="wordmark" href="#top">Nikola Nikolov</a>
-  <nav>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+<div class="bg-decor no-print" aria-hidden="true">
+  <span class="bg-glyph" style="--x:6%; --y:10%; --d:0s;">{ }</span>
+  <span class="bg-glyph" style="--x:88%; --y:6%; --d:-2s;">&lt;/&gt;</span>
+  <span class="bg-glyph" style="--x:12%; --y:82%; --d:-6s;">01</span>
+  <span class="bg-glyph" style="--x:92%; --y:70%; --d:-3.5s;">=&gt;</span>
+  <span class="bg-glyph" style="--x:78%; --y:34%; --d:-1s;">;</span>
+  <span class="bg-glyph" style="--x:4%; --y:46%; --d:-4.5s;">#</span>
+  <span class="bg-glyph" style="--x:60%; --y:90%; --d:-7s;">( )</span>
+  <span class="bg-glyph" style="--x:36%; --y:4%; --d:-5s;">i++</span>
+</div>
 
 <main id="top">
 
   <section class="hero">
     <p class="eyebrow" id="hero-tagline"></p>
-    <h1 id="hero-name"></h1>
-    <p class="lede" id="hero-lede"></p>
+    <h1 id="hero-name" class="no-print"></h1>
+    <h1 id="hero-name-print" class="print-only"></h1>
+    <p class="lede no-print" id="hero-lede"></p>
+    <p class="lede print-only" id="hero-lede-print"></p>
   </section>
 
   <section id="experience">

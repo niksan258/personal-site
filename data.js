@@ -1,8 +1,11 @@
 // Single source of truth for CV content, rendered into index.html by render.js.
 const CV_DATA = {
   name: "Nikola Nikolov",
+  heroGreeting: "Hi, I'm Nikola",
   tagline: "Full-Stack Developer &middot; Sofia, Bulgaria",
-  lede: "I build web applications end to end — from ASP.NET Core and Angular on " +
+  lede: "I love building things for the web — from the interface you click on, " +
+        "to the infrastructure quietly running behind it.",
+  pdfLede: "I build web applications end to end — from ASP.NET Core and Angular on " +
         "the frontend, to provisioning the Azure infrastructure they run on. I like " +
         "picking things up quickly and I'm just as happy explaining a tricky " +
         "technical concept as I am writing the code behind it.",
