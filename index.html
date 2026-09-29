@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nikola Nikolov</title>
-<meta name="description" content="Nikola Nikolov — Full-Stack Developer, Sofia, Bulgaria.">
+<meta name="description" content="Nikola Nikolov — Full-Stack Developer in Sofia, Bulgaria, working with ASP.NET Core, Angular and Azure.">
+<meta property="og:title" content="Nikola Nikolov — Full-Stack Developer">
+<meta property="og:description" content="Full-Stack Developer in Sofia, Bulgaria, working with ASP.NET Core, Angular and Azure.">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -23,34 +25,81 @@
 <main id="top">
 
   <section class="hero">
-    <p class="eyebrow" id="hero-tagline"></p>
-    <h1 id="hero-name" class="no-print"></h1>
-    <h1 id="hero-name-print" class="print-only"></h1>
-    <p class="lede no-print" id="hero-lede"></p>
-    <p class="lede print-only" id="hero-lede-print"></p>
+    <p class="eyebrow">Full-Stack Developer &middot; Sofia, Bulgaria</p>
+    <h1 class="no-print">Hi, I'm Nikola</h1>
+    <h1 class="print-only">Nikola Nikolov</h1>
+    <p class="lede">
+      Full-stack developer who picks up new tech quickly and likes knowing how
+      things work under the hood, whether it&rsquo;s a cloud system at work or an
+      electronics project at home. I care about building things that still work
+      well long after they ship.
+    </p>
   </section>
 
   <section id="experience">
     <h2>Experience</h2>
-    <div id="experience-list"></div>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Entian Solutions</h3>
+        <span class="dates">Jan 2025 &ndash; Present</span>
+      </div>
+      <p class="role">Full-Stack Developer &middot; Sofia, Hybrid</p>
+      <ul>
+        <li>Develop an internal web application for managing Microsoft SQL Servers and databases across 3&nbsp;regions, built with ASP.NET Core and Angular.</li>
+        <li>Migrated the application from on-premises infrastructure to Azure, cutting wait times for database moves in half and improving scalability.</li>
+        <li>Built an integration for moving databases from the application into Databricks.</li>
+        <li>Took on the team lead role for two developers, handling client communication alongside hands&#8209;on development.</li>
+      </ul>
+    </article>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Hitachi Solutions</h3>
+        <span class="dates">Jul 2023 &ndash; Dec 2024</span>
+      </div>
+      <p class="role">Junior Developer &middot; Sofia, Hybrid</p>
+      <ul>
+        <li>Developed features for a scalable, event-driven serverless platform for a renewable energy company, using .NET Core, Entity Framework and Azure Functions.</li>
+        <li>Migrated a legacy ASP.NET MVC application to .NET Core and Blazor.</li>
+        <li>Contributed to designing and building a custom compliance solution as part of a large team, and helped present it to non-technical stakeholders.</li>
+        <li>Helped onboard new developers and took part in internal training on React and TypeScript.</li>
+      </ul>
+    </article>
   </section>
 
   <section id="education">
     <h2>Education</h2>
-    <div id="education-list"></div>
-    <p class="certs" id="certs-list"></p>
+
+    <article class="entry">
+      <div class="entry-head">
+        <h3>Sofia University &mdash; Faculty of Mathematics and Informatics</h3>
+        <span class="dates">Sep 2021 &ndash; Sep 2025</span>
+      </div>
+      <p class="role">Bachelor&rsquo;s degree in Information Systems &middot; Sofia, Bulgaria</p>
+    </article>
+
+    <p class="certs">
+      <strong>Certifications:</strong>
+      AZ-900 Microsoft Azure Fundamentals (2023) &middot;
+      SC-900 Microsoft Security, Compliance, and Identity Fundamentals (2024)
+    </p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
     <div class="skills-grid">
       <div>
-        <h3>Technical</h3>
-        <p id="skills-technical"></p>
+        <h3>Languages &amp; frameworks</h3>
+        <p>C# &middot; ASP.NET Core &middot; Entity Framework &middot; Blazor &middot; Angular &middot; React &middot; TypeScript</p>
       </div>
       <div>
-        <h3>Working style</h3>
-        <p id="skills-working"></p>
+        <h3>Cloud &amp; data</h3>
+        <p>Microsoft Azure &middot; Databricks &middot; SQL Server &middot; PostgreSQL</p>
+      </div>
+      <div>
+        <h3>Tools &amp; practices</h3>
+        <p>Git &middot; Azure DevOps &middot; GitHub Actions &middot; Agile/Scrum</p>
       </div>
     </div>
   </section>
@@ -62,14 +111,14 @@
       what you're building.
     </p>
     <ul class="contact-list">
-      <li><a id="contact-email" href="#"></a></li>
-      <li><a id="contact-github" href="#" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a id="contact-linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:hello@nikolov.cv">hello@nikolov.cv</a></li>
+      <li><a href="https://github.com/niksan258" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/nikola-nikolov-8068b817a/" target="_blank" rel="noopener">LinkedIn</a></li>
     </ul>
   </section>
 
   <p class="download-cv no-print">
-    <button onclick="window.print()">Download CV (PDF)</button>
+    <a class="button" href="Nikola-Nikolov-CV.pdf" download>Download CV (PDF)</a>
   </p>
 
 </main>
@@ -78,7 +127,5 @@
   <p>Nikola Nikolov, Sofia, Bulgaria.</p>
 </footer>
 
-<script src="data.js"></script>
-<script src="render.js"></script>
 </body>
 </html>
